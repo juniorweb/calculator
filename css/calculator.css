@@ -17,22 +17,23 @@
 
 /* Calculator container */
 .jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 /* Keyboard buttons */
 .jumbotron .btn {
-  padding: 14px 24px;
-  font-size: 21px;
+    padding: 14px 24px;
+    font-size: 21px;
 }
 
 /* Adjust display and buttons for small screens */
 @media (max-width: 320px) {
+    
     #calculator .display{
         font-size: 1em;
         padding: 0.5em;
-    }
+    }    
     .panel{
         margin-bottom: 12px;
     }
@@ -40,4 +41,5 @@
       padding: 7px 14px;
       font-size: 14px;
     }
+    
 }
