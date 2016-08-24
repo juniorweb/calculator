@@ -2,6 +2,9 @@
 
 Calculator of basic operations created using HTML, CSS, JavaScript and AngularJs.
 
+## Installation
+If possible, copy the files to a http server to avoid cross origin request problems  on Chrome. 
+
 ## License
 
 MIT License
