@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="calculator">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Calculator of basic operations">
+        <meta name="author" content="Roberto Júnior">
+        
+        
+        <title>Calculator</title>
+        
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <!-- Custom styles for the page and the calculator -->
+        <link href="css/page.css" rel="stylesheet">
+        <link href="css/calculator.css" rel="stylesheet">
+        
+        <link rel="icon" type="image/x-icon" href="images/calculator.ico" />
+        
+        <!-- Angular -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="container">
+            <header class="header clearfix">
+                <h3 class="text-muted">Calculator Project</h3>
+            </header>
+
+            <main>
+                <section id="calculator" class="jumbotron"  ng-controller="MainController as ctrl">
+                    <div class="row">
+                        <div class="panel panel-default">
+                            <div class="panel-body display">
+                                {{display}}
+                            </div>
+                        </div>
+                    </div>
+                    <keyboard></keyboard>
+
+                </section>
+                
+            </main>
+
+            <footer><p>Created by Roberto Júnior</p></footer>
+            
+        </div> <!-- /container -->
+        
+        <!-- Bootstrap -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <!-- Calculator App -->
+        <script src="js/calculator.js"></script>
+
+    </body>
+    
+</html>
+
+
